@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBIDesktopVersion",
-        "value": "2.120.963.0 (23.08)"
+        "value": "2.121.662.0 (23.09)"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -29832,6 +29832,35 @@
             "isDataTypeInferred": true,
             "lineageTag": "c55bcc78-4084-4d1f-8274-cc2ad2b78d3b",
             "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Due in X Hours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "VAR TodayDate = TODAY()",
+              "",
+              "VAR HoursDifference = ",
+              "    IF(",
+              "        NOT(ISBLANK(Fact_SRJobs[TargetDate])),",
+              "        INT(DATEDIFF(TodayDate, Fact_SRJobs[TargetDate], HOUR)),",
+              "        BLANK()",
+              "    )",
+              "",
+              "RETURN",
+              "    HoursDifference"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "0910d513-6d3d-44b4-b8c8-d1786989c24a",
+            "summarizeBy": "sum",
             "type": "calculated"
           }
         ],
