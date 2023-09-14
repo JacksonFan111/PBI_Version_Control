@@ -1,0 +1,152 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 3592.5000000000014
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 265.23137679145054,
+            "y": 3827.9388384790632
+          },
+          "nodeIndex": "Dim_Contacts",
+          "nodeLineageTag": "e26868bc-9dfb-46f6-a523-97000475fd37",
+          "size": {
+            "height": 223.32173467166592,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 411.75558468787,
+            "y": 4206.053766692562
+          },
+          "nodeIndex": "Fact_SRJobs",
+          "nodeLineageTag": "d60ebcae-9bdd-4d75-b59f-5a519af0ba47",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 528.91178025053978,
+            "y": 3831.7169214514133
+          },
+          "nodeIndex": "Dim_SRJobSource",
+          "nodeLineageTag": "274db3b3-2570-4fde-bc9b-d43f3e2039aa",
+          "size": {
+            "height": 218.29365169931623,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1066.784827897337,
+            "y": 3828.07170149424
+          },
+          "nodeIndex": "Dim_SRJobTags",
+          "nodeLineageTag": "62569268-0097-4496-a318-7f41240c4f42",
+          "size": {
+            "height": 228.00427399193939,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 265.23137679145054,
+            "y": 3602.932125466411
+          },
+          "nodeIndex": "Dim_ContactTags",
+          "nodeLineageTag": "374afeeb-72fc-4831-b476-6dc47b58087b",
+          "size": {
+            "height": 184.00854798387894,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 3606.8921322981641
+          },
+          "nodeIndex": "Date Last Refreshed",
+          "nodeLineageTag": "77caf5f0-c3c8-4da2-8555-a0c59b4a695c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 3827.9388384790632
+          },
+          "nodeIndex": "Dim_Date",
+          "nodeLineageTag": "e2012d41-8929-4bdd-9fb3-a380e7f9815d",
+          "size": {
+            "height": 224.57875541475346,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1350.784827897337,
+            "y": 2542.0312521029846
+          },
+          "nodeIndex": "My Measures",
+          "nodeLineageTag": "047760fc-a5e2-498c-b033-9ac22e057390",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1343.534827897337,
+            "y": 3808.0008417964468
+          },
+          "nodeIndex": "Dim_Address",
+          "nodeLineageTag": "7dfd9319-cd11-4329-9ba4-45373361b8f7",
+          "size": {
+            "height": 300,
+            "width": 304
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 804.36994583468629,
+            "y": 3828.5880575351011
+          },
+          "nodeIndex": "Dim_SR_JobType_Subtype",
+          "nodeLineageTag": "3cb5597c-1abe-4d82-a72e-90b0dbabc51c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 10
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 79.999999999999972,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
