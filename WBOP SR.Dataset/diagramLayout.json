@@ -4,14 +4,14 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 143.75000000000006,
-        "y": 3481.2500000000014
+        "x": 0,
+        "y": 4817.3203172317153
       },
       "nodes": [
         {
           "location": {
             "x": 265.23137679145054,
-            "y": 3827.9388384790632
+            "y": 7005.4779036077944
           },
           "nodeIndex": "Dim_Contacts",
           "nodeLineageTag": "e26868bc-9dfb-46f6-a523-97000475fd37",
@@ -24,7 +24,7 @@
         {
           "location": {
             "x": 411.75558468787,
-            "y": 4206.053766692562
+            "y": 7383.5928318212927
           },
           "nodeIndex": "Fact_SRJobs",
           "nodeLineageTag": "d60ebcae-9bdd-4d75-b59f-5a519af0ba47",
@@ -37,7 +37,7 @@
         {
           "location": {
             "x": 528.91178025053978,
-            "y": 3831.7169214514133
+            "y": 7009.2559865801441
           },
           "nodeIndex": "Dim_SRJobSource",
           "nodeLineageTag": "274db3b3-2570-4fde-bc9b-d43f3e2039aa",
@@ -50,7 +50,7 @@
         {
           "location": {
             "x": 1066.784827897337,
-            "y": 3828.07170149424
+            "y": 7005.6107666229709
           },
           "nodeIndex": "Dim_SRJobTags",
           "nodeLineageTag": "62569268-0097-4496-a318-7f41240c4f42",
@@ -63,7 +63,7 @@
         {
           "location": {
             "x": 265.23137679145054,
-            "y": 3602.932125466411
+            "y": 6780.4711905951417
           },
           "nodeIndex": "Dim_ContactTags",
           "nodeLineageTag": "374afeeb-72fc-4831-b476-6dc47b58087b",
@@ -76,7 +76,7 @@
         {
           "location": {
             "x": 0,
-            "y": 3606.8921322981641
+            "y": 6784.4311974268949
           },
           "nodeIndex": "Date Last Refreshed",
           "nodeLineageTag": "77caf5f0-c3c8-4da2-8555-a0c59b4a695c",
@@ -89,7 +89,7 @@
         {
           "location": {
             "x": 0,
-            "y": 3827.9388384790632
+            "y": 7005.4779036077944
           },
           "nodeIndex": "Dim_Date",
           "nodeLineageTag": "e2012d41-8929-4bdd-9fb3-a380e7f9815d",
@@ -102,7 +102,7 @@
         {
           "location": {
             "x": 1350.784827897337,
-            "y": 2542.0312521029846
+            "y": 5719.5703172317153
           },
           "nodeIndex": "My Measures",
           "nodeLineageTag": "047760fc-a5e2-498c-b033-9ac22e057390",
@@ -115,7 +115,7 @@
         {
           "location": {
             "x": 1343.534827897337,
-            "y": 3808.0008417964468
+            "y": 6985.539906925178
           },
           "nodeIndex": "Dim_Address",
           "nodeLineageTag": "7dfd9319-cd11-4329-9ba4-45373361b8f7",
@@ -128,7 +128,7 @@
         {
           "location": {
             "x": 804.36994583468629,
-            "y": 3828.5880575351011
+            "y": 7006.1271226638319
           },
           "nodeIndex": "Dim_SR_JobType_Subtype",
           "nodeLineageTag": "3cb5597c-1abe-4d82-a72e-90b0dbabc51c",
@@ -137,6 +137,32 @@
             "width": 234
           },
           "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 512.50000000000023,
+            "y": 6784.42532242352
+          },
+          "nodeIndex": "# Item",
+          "nodeLineageTag": "659d91a3-7db4-4650-902f-4cc5c29fb70c",
+          "size": {
+            "height": 125.25,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1697.534827897337,
+            "y": 2776.5346963720272
+          },
+          "nodeIndex": "# Pages",
+          "nodeLineageTag": "ba5bdd72-acab-43c5-a7d7-ad22e7471b04",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
