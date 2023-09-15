@@ -35360,6 +35360,118 @@
           }
         ],
         "showAsVariationsOnly": true
+      },
+      {
+        "name": "# Item",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "9e26d560865945d0961bc84d1c1f2510"
+          }
+        ],
+        "columns": [
+          {
+            "name": "# Item",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "b6ba0de6-3c35-4fb8-bab9-ddbec2cb76a5",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "659d91a3-7db4-4650-902f-4cc5c29fb70c",
+        "measures": [
+          {
+            "name": "# Item Value",
+            "expression": "SELECTEDVALUE('# Item'[# Item], 10)",
+            "formatString": "0",
+            "lineageTag": "38d84390-1916-4d81-8aca-c5f195b450ca"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "# Item",
+            "mode": "import",
+            "source": {
+              "expression": "GENERATESERIES(1, 50, 1)",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "# Pages",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "c6a2656e2c2c49bab9d33f46fa2a585d"
+          }
+        ],
+        "columns": [
+          {
+            "name": "# Pages",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "2f57ddb1-9102-4406-ab89-e4f32f8668a8",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "ba5bdd72-acab-43c5-a7d7-ad22e7471b04",
+        "measures": [
+          {
+            "name": "# Pages Value",
+            "expression": "SELECTEDVALUE('# Pages'[# Pages], 5)",
+            "formatString": "0",
+            "lineageTag": "6ceba11b-b369-470b-b862-e61cb66e05a2"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "# Pages",
+            "mode": "import",
+            "source": {
+              "expression": "GENERATESERIES(0, 50, 1)",
+              "type": "calculated"
+            }
+          }
+        ]
       }
     ]
   }
